@@ -53,15 +53,15 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Gui+Sft+S
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: layer1, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - COPY
+  - PASTE
   - '2'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -199,3 +199,5 @@ combos:
 - p: [0, 1, 2]
   k: Ctl+Alt+$$mdi:backspace-reverse-outline$$
   l: [LAYER0]
+- p: [56, 57]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
