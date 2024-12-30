@@ -19,7 +19,7 @@ layers:
   - W
   - E
   - R
-  - {t: T, h: toggle}
+  - T
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RIGHT GUI, h: layer1}
-  - {t: F2, h: '2'}
+  - {t: F2, h: layer2}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  layer2:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
