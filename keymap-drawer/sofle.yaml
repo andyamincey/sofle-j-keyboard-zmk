@@ -6,9 +6,9 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '5', h: HOME, s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
+  - {t: '6', h: END}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -19,32 +19,32 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: PgUp}
   - $$mdi:arrow-down-bold$$
-  - Y
+  - {t: Y, h: PgDn}
   - U
   - I
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-shift$$
+  - AC SAVE
   - A
   - S
   - D
   - F
-  - G
+  - {t: G, h: '-'}
   - $$mdi:arrow-left-bold$$
-  - H
+  - {t: H, h: '='}
   - J
   - K
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - C
-  - V
+  - {t: C, h: COPY}
+  - {t: V, h: PASTE}
   - B
   - $$mdi:arrow-right-bold$$
   - N
@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Gui+Sft+S
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: layer1, h: toggle}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - COPY
-  - PASTE
-  - '2'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: RIGHT GUI, h: layer1}
+  - {t: AC DESKTOP SHOW ALL WINDOWS, h: '2'}
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
+  - Ctl+AltGr+$$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -191,8 +191,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
