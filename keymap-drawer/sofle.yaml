@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   LAYER0:
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-finder$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: F3}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -56,15 +56,15 @@ layers:
   - Gui+Sft+S
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:keyboard-tab$$'}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RIGHT GUI, h: layer1}
-  - {t: AC DESKTOP SHOW ALL WINDOWS, h: '2'}
+  - {t: F2, h: '2'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
-  - Ctl+AltGr+$$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-option$$
   layer1:
   - {t: '`', s: '~'}
   - F1
