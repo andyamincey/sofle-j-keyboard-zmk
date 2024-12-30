@@ -327,7 +327,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">5</text>
-<text x="0" y="24" class="key hold">HOME</text>
 <text x="0" y="-24" class="key shifted">%</text>
 </g>
 <g transform="translate(462, 35)" class="key keypos-6">
@@ -339,7 +338,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">6</text>
-<text x="0" y="24" class="key hold">END</text>
 </g>
 <g transform="translate(672, 35)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -399,7 +397,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">T</text>
-<text x="0" y="24" class="key hold">PgUp</text>
+<text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(462, 147)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -410,7 +408,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Y</text>
-<text x="0" y="24" class="key hold">PgDn</text>
 </g>
 <g transform="translate(672, 91)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -469,7 +466,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">G</text>
-<text x="0" y="24" class="key hold">-</text>
 </g>
 <g transform="translate(406, 91)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -480,7 +476,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">H</text>
-<text x="0" y="24" class="key hold">=</text>
 </g>
 <g transform="translate(672, 147)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -527,13 +522,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">C</text>
-<text x="0" y="24" class="key hold">COPY</text>
 </g>
 <g transform="translate(252, 203)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">V</text>
-<text x="0" y="24" class="key hold">PASTE</text>
 </g>
 <g transform="translate(308, 203)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -657,6 +650,46 @@ rect.held, rect.combo.held {
 <g class="combo enter combopos-1">
 <rect rx="6" ry="6" x="338" y="276" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="343" y="280" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
+<text x="280" y="91" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">PgDn</text>
+</g>
+<g class="combo combopos-4">
+<path d="M252,200 l37,2" class="combo"/>
+<path d="M252,200 l-37,-2" class="combo"/>
+<rect rx="6" ry="6" x="238" y="186" width="28" height="26" class="combo"/>
+<text x="252" y="200" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">Ctl+V</text>
+</g>
+<g class="combo combopos-6">
+<path d="M252,89 l-37,-3" class="combo"/>
+<path d="M252,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="238" y="76" width="28" height="26" class="combo"/>
+<text x="252" y="89" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-7">
+<path d="M672,89 l-37,2" class="combo"/>
+<path d="M672,89 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo"/>
+<text x="672" y="89" class="combo tap">END</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">-</text>
+<text x="280" y="136" class="combo shifted">_</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
+<text x="644" y="147" class="combo tap">=</text>
+<text x="644" y="136" class="combo shifted">+</text>
 </g>
 </g>
 </g>
@@ -1004,6 +1037,46 @@ rect.held, rect.combo.held {
 <g class="combo enter combopos-0">
 <rect rx="6" ry="6" x="338" y="276" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="343" y="280" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
+<text x="280" y="91" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">PgDn</text>
+</g>
+<g class="combo combopos-3">
+<path d="M252,200 l37,2" class="combo"/>
+<path d="M252,200 l-37,-2" class="combo"/>
+<rect rx="6" ry="6" x="238" y="186" width="28" height="26" class="combo"/>
+<text x="252" y="200" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">Ctl+V</text>
+</g>
+<g class="combo combopos-5">
+<path d="M252,89 l-37,-3" class="combo"/>
+<path d="M252,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="238" y="76" width="28" height="26" class="combo"/>
+<text x="252" y="89" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-6">
+<path d="M672,89 l-37,2" class="combo"/>
+<path d="M672,89 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo"/>
+<text x="672" y="89" class="combo tap">END</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">-</text>
+<text x="280" y="136" class="combo shifted">_</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
+<text x="644" y="147" class="combo tap">=</text>
+<text x="644" y="136" class="combo shifted">+</text>
 </g>
 </g>
 </g>
@@ -1354,6 +1427,46 @@ rect.held, rect.combo.held {
 <g class="combo enter combopos-0">
 <rect rx="6" ry="6" x="338" y="276" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="343" y="280" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="266" y="78" width="28" height="26" class="combo"/>
+<text x="280" y="91" class="combo tap">PgUp</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
+<text x="644" y="91" class="combo tap">PgDn</text>
+</g>
+<g class="combo combopos-3">
+<path d="M252,200 l37,2" class="combo"/>
+<path d="M252,200 l-37,-2" class="combo"/>
+<rect rx="6" ry="6" x="238" y="186" width="28" height="26" class="combo"/>
+<text x="252" y="200" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">Ctl+V</text>
+</g>
+<g class="combo combopos-5">
+<path d="M252,89 l-37,-3" class="combo"/>
+<path d="M252,89 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="238" y="76" width="28" height="26" class="combo"/>
+<text x="252" y="89" class="combo tap">HOME</text>
+</g>
+<g class="combo combopos-6">
+<path d="M672,89 l-37,2" class="combo"/>
+<path d="M672,89 l37,-3" class="combo"/>
+<rect rx="6" ry="6" x="658" y="76" width="28" height="26" class="combo"/>
+<text x="672" y="89" class="combo tap">END</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="266" y="134" width="28" height="26" class="combo"/>
+<text x="280" y="147" class="combo tap">-</text>
+<text x="280" y="136" class="combo shifted">_</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
+<text x="644" y="147" class="combo tap">=</text>
+<text x="644" y="136" class="combo shifted">+</text>
 </g>
 </g>
 </g>
